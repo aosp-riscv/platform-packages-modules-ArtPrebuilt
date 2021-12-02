@@ -11,6 +11,9 @@ prebuilt_apex {
         arm64: {
             src: "com.android.art.debug-arm64.apex",
         },
+        riscv64: {
+            src: "com.android.art.debug-riscv64.apex",
+        },
         x86: {
             src: "com.android.art.debug-x86.apex",
         },
@@ -36,6 +39,9 @@ prebuilt_apex {
         },
         arm64: {
             src: "com.android.art-arm64.apex",
+        },
+        riscv64: {
+            src: "com.android.art-riscv64.apex",
         },
         x86: {
             src: "com.android.art-x86.apex",
